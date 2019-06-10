@@ -10,5 +10,10 @@
   <%= @artist.number_one_hits %>
 </p>
 
+<p>
+  <strong>Genre:</strong>
+  <%= @artist.genre_id %>
+</p>
+
 <%= link_to 'Edit', edit_artist_path(@artist) %> |
 <%= link_to 'Back', artists_path %>
