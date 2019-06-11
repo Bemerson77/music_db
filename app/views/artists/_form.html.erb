@@ -17,11 +17,6 @@
   </div>
 
   <div class="field">
-    <%= form.label :number_one_hits %>
-    <%= form.text_field :number_one_hits %>
-  </div>
-
-  <div class="field">
     <%= form.label :genre_id %>
     <%= form.collection_select :genre_id, @genres, :id, :name, id: :artist_genre_id %>
   </div>

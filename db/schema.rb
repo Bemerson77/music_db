@@ -10,11 +10,10 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_06_10_214642) do
+ActiveRecord::Schema.define(version: 2019_06_11_180756) do
 
   create_table "artists", force: :cascade do |t|
     t.string "name"
-    t.string "number_one_hits"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.integer "genre_id"
