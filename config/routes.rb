@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :band_members
   resources :songs
   resources :genres
   resources :artists
