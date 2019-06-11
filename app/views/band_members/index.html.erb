@@ -17,7 +17,7 @@
       <tr>
         <td><%= band_member.name %></td>
         <td><%= band_member.instrument %></td>
-        <td><%= band_member.artist_id %></td>
+        <td><%= band_member.artist.name %></td>
         <td><%= link_to 'Show', band_member %></td>
         <td><%= link_to 'Edit', edit_band_member_path(band_member) %></td>
         <td><%= link_to 'Destroy', band_member, method: :delete, data: { confirm: 'Are you sure?' } %></td>

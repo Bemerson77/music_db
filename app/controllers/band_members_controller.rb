@@ -15,10 +15,12 @@ class BandMembersController < ApplicationController
   # GET /band_members/new
   def new
     @band_member = BandMember.new
+    @artists = Artist.all
   end
 
   # GET /band_members/1/edit
   def edit
+    @artists = Artist.all
   end
 
   # POST /band_members
